@@ -1,0 +1,8 @@
+#! /usr/bin/osascript
+
+on run argv
+    tell application "Google Chrome"
+        set myTab to make new tab at end of tabs of window 1
+        set url of myTab to item 1 of argv
+    end tell
+end run
