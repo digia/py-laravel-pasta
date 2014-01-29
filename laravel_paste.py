@@ -1,5 +1,4 @@
 from subprocess import call
-import pprint
 import requests
 import sys
 
